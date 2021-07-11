@@ -160,115 +160,115 @@ public class EncryptionHandler {
 			
 			switch(currentChar) {
 				case '{':  
-		            decryptedString = decryptedString+"a";  
+		            decryptedString = decryptedString + "a";  
 		            break;  
 		        case '}':  
-		            decryptedString = decryptedString+"b";  
+		            decryptedString = decryptedString + "b";  
 		            break;  
 		        case '#': 
-		            decryptedString = decryptedString+"c";  
+		            decryptedString = decryptedString + "c";  
 		            break;  
 		        case '~':  
-		            decryptedString = decryptedString+"d";  
+		            decryptedString = decryptedString + "d";  
 		            break;  
 		        case '+':  
-		            decryptedString = decryptedString+"e";  
+		            decryptedString = decryptedString + "e";  
 		            break;  
 		        case '-':  
-		            decryptedString = decryptedString+"f";  
+		            decryptedString = decryptedString + "f";  
 		            break;  
 		        case '*':  
-		            decryptedString = decryptedString+"g";  
+		            decryptedString = decryptedString + "g";  
 		            break;  
 		        case '@':  
-		            decryptedString = decryptedString+"h";  
+		            decryptedString = decryptedString + "h";  
 		            break;  
 		        case '/':  
-		            decryptedString = decryptedString+"i";  
+		            decryptedString = decryptedString + "i";  
 		            break;  
 		        case '\\':  
-		            decryptedString = decryptedString+"j";  
+		            decryptedString = decryptedString + "j";  
 		            break;  
 		        case '?':  
-		            decryptedString = decryptedString+"k";  
+		            decryptedString = decryptedString + "k";  
 		            break;  
 		        case '$':  
-		            decryptedString = decryptedString+"l";  
+		            decryptedString = decryptedString + "l";  
 		            break;  
 		        case '!':  
-		            decryptedString = decryptedString+"m";  
+		            decryptedString = decryptedString + "m";  
 		            break;  
 		        case '^':  
-		            decryptedString = decryptedString+"n";  
+		            decryptedString = decryptedString + "n";  
 		            break;  
 		        case '(':  
-		            decryptedString = decryptedString+"o";  
+		            decryptedString = decryptedString + "o";  
 		            break;  
 		        case ')':  
-		            decryptedString = decryptedString+"p";  
+		            decryptedString = decryptedString + "p";  
 		            break;  
 		        case '<':  
-		            decryptedString = decryptedString+"q";  
+		            decryptedString = decryptedString + "q";  
 		            break;  
 		        case '>':  
-		            decryptedString = decryptedString+"r";  
+		            decryptedString = decryptedString + "r";  
 		            break;  
 		        case '=' :  
-		            decryptedString = decryptedString+"s";  
+		            decryptedString = decryptedString + "s";  
 		            break;  
 		        case ';':  
-		            decryptedString = decryptedString+"t";  
+		            decryptedString = decryptedString + "t";  
 		            break;  
 		        case ',':  
-		            decryptedString = decryptedString+"u";  
+		            decryptedString = decryptedString + "u";  
 		            break;  
 		        case '_' :  
-		            decryptedString = decryptedString+"v";  
+		            decryptedString = decryptedString + "v";  
 		            break;  
 		        case '[':  
-		            decryptedString = decryptedString+"w";  
+		            decryptedString = decryptedString + "w";  
 		            break;  
 		        case ']' :  
-		            decryptedString = decryptedString+"x";  
+		            decryptedString = decryptedString + "x";  
 		            break;  
 		        case ':':  
-		            decryptedString = decryptedString+"y";  
+		            decryptedString = decryptedString + "y";  
 		            break;  
 		        case '\"' :  
-		            decryptedString = decryptedString+"z";  
+		            decryptedString = decryptedString + "z";  
 		            break;       
 		        case '1':  
-		            decryptedString = decryptedString+"r";  
+		            decryptedString = decryptedString + "r";  
 		            break;  
 		        case '2':  
-		            decryptedString = decryptedString+"k";  
+		            decryptedString = decryptedString + "k";  
 		            break;  
 		        case '3':  
-		            decryptedString = decryptedString+"b";  
+		            decryptedString = decryptedString + "b";  
 		            break;  
 		        case '4':  
-		            decryptedString = decryptedString+"e";  
+		            decryptedString = decryptedString + "e";  
 		            break;  
 		        case '5':  
-		            decryptedString = decryptedString+"q";  
+		            decryptedString = decryptedString + "q";  
 		            break;  
 		        case '6':  
-		            decryptedString = decryptedString+"h";  
+		            decryptedString = decryptedString + "h";  
 		            break;  
 		        case '7':  
-		            decryptedString = decryptedString+"u";  
+		            decryptedString = decryptedString + "u";  
 		            break;  
 		        case '8' :  
-		            decryptedString = decryptedString+"y";  
+		            decryptedString = decryptedString + "y";  
 		            break;  
 		        case '9':  
-		            decryptedString = decryptedString+"w";  
+		            decryptedString = decryptedString + "w";  
 		            break;  
 		        case '0':  
-		            decryptedString = decryptedString+"z";  
+		            decryptedString = decryptedString + "z";  
 		            break;  
 		        default:
-		            decryptedString = decryptedString+"0";  
+		            decryptedString = decryptedString + "0";  
 		            break;
 			}
 		}
